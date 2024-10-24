@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="color.css">
+    <title>Spotify Login Page Clone </title>
+  </head>
+  <body>
+    <input type="radio" name="optionScreen" id="SignIn" hidden checked>
+    <input type="radio" name="optionScreen" id="SignUp" hidden>
+    <section>
+      <div id="logo">
+        <img src="../images/pngwing.com.png" alt="spotify-logo-png" width="50">
+        <h1>Spotify</h1>
+      </div>
+      <nav>
+        <label for="SignIn">Sign In</label>
+        <label for="SignUp">Sign Up</label>
+      </nav>
+      <form id="SignInFormData">
+        <input type="text"  id="username" placeholder="Username" required>
+        <input type="password"  id="password" placeholder="Password" required>
+        <span>
+          <input type="checkbox" id="staySignedIn" checked>
+          <label for="staySignedIn"> Stay Signed In</label>
+        </span>
+        <button type="submit" title="Sign in">Sign In</button>
+        <a href="#" id="forgotPassword">Forgot Your Password</a>
+      </form>
+      <form id="SignUpFormData">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="email" id="email" placeholder="Enter E-Mail" required>
+        <input type="password" id="password" placeholder="Enter Password" required>
+        <span>
+          <input type="checkbox" id="staySignedUp" checked>
+          <label for="staySignedUp">stay Signed In</label>
+        </span>
+        <button type="submit" title="Sign Up">Sign Up</button>
+      </form>
+    </section>
+  </body>
+
+</html>
